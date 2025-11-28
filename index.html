@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>PROG SIMPLES LTDA</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #f2f2f2;
+        font-family: "Arial", sans-serif;
+        color: #000;
+    }
+
+    h1, h2, h3 {
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    section {
+        padding: 80px;
+        border-bottom: 3px solid #000;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+    img.circle {
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #000;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 12px 28px;
+        background: #000;
+        color: #fff;
+        text-decoration: none;
+        border: 3px solid #000;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .services, .advantages, .process {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    .card {
+        padding: 20px;
+        border: 3px solid #000;
+        background: #fff;
+    }
+
+    .contact-block {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        gap: 12px;
+    }
+
+    input, textarea {
+        padding: 12px;
+        border: 3px solid #000;
+        background: #fff;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 30px;
+        text-align: center;
+        background: #000;
+        color: #fff;
+        font-size: 14px;
+    }
+</style>
+</head>
+<body>
+
+<!-- 1. HERO -->
+<section id="hero">
+    <div class="container">
+        <div>
+            <h1>PROG SIMPLES LTDA</h1>
+            <h2>Gestão estratégica para empresas que querem ir além.</h2>
+            <p>
+                Atuamos na organização administrativa, estruturação de projetos e consultoria empresarial,
+                oferecendo soluções feitas sob medida para negócios que buscam eficiência real e resultados
+                consistentes. Nossa abordagem direta e racional elimina ruídos e foca no que realmente importa:
+                crescimento sustentável.
+            </p>
+            <a href="#contato" class="btn">Contatos</a>
+        </div>
+        <img src="https://media.istockphoto.com/id/2226298773/photo/two-colleagues-collaborating-on-a-project-in-a-bright-modern-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=0aTL8GyVBACjFhaLQkid_9N9N6Hf8RFSQ0MFXg9BCPA=" class="circle" alt="Foto corporativa">
+    </div>
+</section>
+
+<!-- 2. SOBRE NÓS -->
+<section id="sobre">
+    <div class="container">
+        <div>
+            <h2>Quem Somos de Verdade</h2>
+            <p>
+                A PROG SIMPLES LTDA nasceu com o propósito de simplificar a gestão e tornar processos internos mais
+                inteligentes. Trabalhamos com foco na organização administrativa, análise de operações e direção
+                estratégica de projetos corporativos. Nosso time reúne profissionais com experiência prática em
+                diferentes setores, o que nos permite identificar gargalos e criar soluções realistas. Não vendemos
+                promessas — entregamos estrutura, clareza e direção. Nossa missão é ajudar empresas a operar com 
+                menos caos e mais controle.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 3. SERVIÇOS -->
+<section id="servicos">
+    <h2>O Que Fazemos na Prática</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Gestão Administrativa</h3>
+            <p>
+                Estruturamos rotinas, processos e operações internas para reduzir falhas e aumentar eficiência.
+                Nosso foco é criar sistemas que funcionem, mesmo em ambientes complexos. Trazemos ordem e
+                previsibilidade para o dia a dia corporativo.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Gestão de Projetos</h3>
+            <p>
+                Planejamos, coordenamos e acompanhamos projetos do início ao fim. Com metodologia clara e controles
+                objetivos, garantimos que prazos, custos e entregas sigam o rumo correto — sem surpresas.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Consultoria Empresarial</h3>
+            <p>
+                Analisamos sua operação, detectamos problemas invisíveis e propomos soluções práticas. Nada de
+                relatórios genéricos — entregamos direcionamento real, aplicável e conectado às necessidades do seu
+                negócio.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 4. VANTAGENS -->
+<section id="vantagens">
+    <h2>Por Que Nossos Clientes Escolhem Ficar</h2>
+    <div class="advantages">
+        <div class="card">
+            <h3>Transparência Radical</h3>
+            <p>
+                Comunicamos cada etapa, sem termos vagos ou complicações desnecessárias. Você sabe exatamente o que
+                estamos fazendo e por quê.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Soluções Sob Medida</h3>
+            <p>
+                Nada é copiado. Cada recomendação e processo nasce da realidade do seu negócio e da análise dos
+                seus desafios específicos.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Foco em Resultados</h3>
+            <p>
+                Nosso objetivo é melhorar seu desempenho real — métricas, produtividade, organização e estratégia.
+                Tudo que fazemos precisa gerar impacto palpável.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 5. PROCESSO -->
+<section id="processo">
+    <h2>Como Trabalhamos (Simples e Direto)</h2>
+    <div class="process">
+        <div class="card">
+            <h3>1. Diagnóstico Profundo</h3>
+            <p>
+                Entrevistas, análises e levantamento de dados para entender sua realidade sem filtros.
+            </p>
+        </div>
+        <div class="card">
+            <h3>2. Estratégia e Planejamento</h3>
+            <p>
+                Criamos um plano prático, com prioridades claras e ações organizadas em etapas realistas.
+            </p>
+        </div>
+        <div class="card">
+            <h3>3. Execução e Acompanhamento</h3>
+            <p>
+                Implementamos processos, ajustamos rotinas e acompanhamos resultados para garantir evolução contínua.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 6. CONTATOS -->
+<section id="contato" class="contact-block">
+    <h2>Vamos Conversar</h2>
+    <p>
+        Entre em contato por e-mail e fale diretamente com nossa equipe.  
+        Estamos prontos para entender seu desafio e mostrar como podemos ajudar sua empresa a operar com mais
+        clareza, estratégia e controle.
+    </p>
+    <p><strong>Email:</strong> office@progsimples.pro</p>
+
+
+    <form>
+        <input type="text" placeholder="Seu nome">
+        <input type="email" placeholder="Seu email">
+        <textarea placeholder="Sua mensagem" rows="4"></textarea>
+        <button type="submit" class="btn">Enviar</button>
+    </form>
+    <p><strong>Endereço:</strong> Rua Vergueiro 1695 Conj 1202, 04101-000 São Paulo</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © PROG SIMPLES LTDA — office@progsimples.pro — Rua Vergueiro 1695 Conj 1202, 04101-000 São Paulo
+</footer>
+
+</body>
+</html>
